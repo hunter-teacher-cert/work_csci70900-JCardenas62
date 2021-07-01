@@ -6,6 +6,7 @@ int pman = 0;
 int [] compside = new int [7];
 int cman = 6;
 Scanner scan = new Scanner(System.in);
+
 public void initializeBoard () {
   playerside[pman] = 0;
   compside[cman] = 0;
@@ -17,8 +18,6 @@ public void initializeBoard () {
     }
 }
 public void boardDisplay() {
-  System.out.println("Welcome to the game of Mancala.");
-  System.out.println("The Mancala board looks like: ");
     for (int i = 0; i< playerside.length; i++) {
       System.out.print(playerside[i] + " " );
       }
@@ -36,7 +35,8 @@ public void playerTurn() {
   System.out.println("Choose which pit you want to move stones.");
   System.out.println("Stones will be moved counter-clockwise from the pit selected.");
     int pitChosen = scan.nextInt();
-    stoneMovement(pitChosen, 1);
+    stoneMovement(pitChosen, 0);
+
 }
 // access arrays
 // select player choice pits
@@ -44,8 +44,7 @@ public void playerTurn() {
 // add ++1 to each pit counterclockwise
 public void stoneMovement(int pitChosen, int turn) {
   int stonesAvail = playerside[pitChosen];
-  playerside[pitChosen] = 0;
-  int lastIndex = -1;
+  int lastIndex = 0;
   boolean endedOnPlayerSide = false;
   for(int i = pitChosen; i >=0 && stonesAvail > 0; i--)
   {
@@ -63,16 +62,20 @@ public void stoneMovement(int pitChosen, int turn) {
 	  {
 		lastIndex = i;
 	  }
+    playerside[pitChosen] = 0;
   }
 	//if last stone dropped is into mancala user goes again
 	//if last stone is dropped into empty bucket on user side
     // all opposite stones go into mancala
-}
+  }
+
   public static void main (String[] args) {
     Mancala game = new Mancala();
+    System.out.println("Welcome to the game of Mancala.");
+    System.out.println("The Mancala board looks like: ");
     game.initializeBoard();
     game.boardDisplay();
-    game.playerTurn();
-    
+    game. playerTurn();
+    game.boardDisplay();
   }
 }
