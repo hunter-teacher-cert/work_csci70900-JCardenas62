@@ -20,7 +20,7 @@ import java.lang.Math;
 class Nim {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner count = new Scanner(System.in);
 
         System.out.println("Welcome to the game of Nim. There is a bag with 12 stones.");
         System.out.println("To play this game, you can remove 1-3 stones. You will be playing against the computer.");
@@ -31,15 +31,15 @@ class Nim {
         while(numStones > 0){
             if(currentPlayer == "USER"){
                 System.out.println("How many stones do you want to remove? Enter 1, 2, or 3.");
-                int stonesToRemove = scan.nextInt();
+                int stonesToRemove = count.nextInt();
                 while(stonesToRemove > 3 || stonesToRemove < 1){ // number besides 1, 2, 3
                     System.out.println("Oops! Try again: enter 1, 2, or 3.");
-                    stonesToRemove = scan.nextInt();
+                    stonesToRemove = count.nextInt();
                 }
                 while(stonesToRemove > numStones){ // ex: 2 stones remaining, user enters 3
                     System.out.println("There are only " + numStones + " stones remaining.");
                     System.out.println("Try again, enter a number up to " + numStones);
-                    stonesToRemove = scan.nextInt();
+                    stonesToRemove = count.nextInt();
                 }
                 numStones -= stonesToRemove;
                 System.out.println("Stones remaining: " + numStones);
