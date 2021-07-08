@@ -13,8 +13,8 @@ public class Loops{
         // in this case you are asking the num which is a double, be multiplied by x
         i = i+ 1;// label the loops i (0)+ 1. So each loop will add plus one until it
         //reaches the while parameter.
-        System.out.println("num "+ result); //added println statements to see computations
-        System.out.println("i " + i);//added to see how many loops are passing
+        // System.out.println("num "+ result); //added println statements to see computations
+        // System.out.println("i " + i);//added to see how many loops are passing
     } //and on line 13, you ask to grab i and add 1 to it.
     return result;//end the loop and return the result
   }
@@ -31,24 +31,73 @@ public class Loops{
       n = n-1;                    // this is the line that states to reduce n by one.
                                   //continuing this loop will eventually make the condition
                                   //for the while loop to be false and return numFact
-      System.out.println("n " + n); //print statements to see mathematical computations
-      System.out.println("Factorial Result "+ numFact);
+      // System.out.println("n " + n); //print statements to see mathematical computations
+      // System.out.println("Factorial Result "+ numFact);
     }
     return numFact;
+}
+
+//exercise 5.1
+public static double myExp(double x, int n){
+  int i=0;
+  double estimate = 0.0; //the estimate is a double due to precision
+//the line below states: for int i which starts at 1, as i less than
+//or equal to n, i will increase incrementally.
+  while (i < 1){
+   //line below: the estimate will be added to the power and divided
+   //by the factorial.
+   estimate = (estimate + power(x, i)) / factorial(i);
+   i = i + 1;
+   // System.out.println("Power: "+ power(x,i));//println statements to see computations
+   // System.out.println("Factorial: "+ factorial(i));
+   // System.out.println("Estimate: " + estimate);
+ }
+ return estimate; //return the result by the end of the loop.
+}
+//exercise 5.2 replace facorial and power with some sort of local variable
+public static double myExp5_2 (double x, int accuracy) {
+   int i = 1;
+   double fact =0.0;
+   double num =1.0;
+   double den = 1.0;
+
+   while (i <= accuracy) {
+      fact= fact + (num/den);
+      num = num * x;
+      den = den * i;
+      i = i+1;
+   }
+   return fact;
+   //observation when myExp has (3,2) result is 6.5; myExp5_2 is 4.0
+}
+//exercise 5.3
+public static void check (double x, int n, int p) {
+//    'x' is the power to which 'e' will be raised
+//    'n' is the accuracy level for myexp
+//    'p' is the no. of rows in the output (the table)
+//    'i' is a loop variable
+      System.out.println (x + "\t" + (Math.exp(x)) + "\t" + (myExp5_2(x,n)) );
+
 }
 //main
   public static void main (String[] args ){
   Scanner input = new Scanner(System.in);
-  // System.out.println(" This is to find X to the power of n");
-  // System.out.println(" Enter the value for X");
-  // int xValue = input.nextInt();
-  // System.out.println("Enter the value for n");
-  // int nValue = input.nextInt();
-  // System.out.println (power(xValue, nValue));
+  // Exercise 3
+  System.out.println(" This is to find X to the power of n");
+  System.out.println(" Enter the value for X");
+  int xValue = input.nextInt();
+  System.out.println("Enter the value for n");
+  int nValue = input.nextInt();
+  System.out.println ("The result of your input is: " + power(xValue, nValue));
+  // Exercise 4
   System.out.println("This is to find the factorial of any integer");
   System.out.println("Enter the number you want to calculate the factorial for.");
   int factN = input.nextInt();
-  System.out.println (factorial (factN));
+  System.out.println ("The result of this factorial is:" + factorial (factN));
+  // Exercise 5
+    System.out.println(myExp(3,2));
+    System.out.println(myExp5_2(3,2));
+    check (1.0,3,2);
+    }
   }
 //added scanner function for more practice integrating scanners.
-}
