@@ -50,7 +50,9 @@ public class SortDemo{
 	} //end for
 
     } //end SortDemo(int size)
-
+  public int get(int index){
+    	return this.data.get(index);
+        }
     /*
       return the index of the ArrayList data from index start to the end
       Example, if the arraylist has:
@@ -72,7 +74,7 @@ public class SortDemo{
 		if( data.get(i) < data.get(smallIndex))
 		{
 			//update the smallest index
-			smallestIndex =  i;
+			smallIndex =  i;
 		} //end if
 	} //end for
 	// your code here
@@ -82,15 +84,24 @@ public class SortDemo{
     } //end findSmallestIndex
 
 
+    // find the smallet index from i to end
+    // your code here
 
+    // swap the item at that index and i
+    // your code here
+    //go through the array ArrayList
+    //
+    public void swap(int Index1, int Index2){
+      int TempValue1 = data.get(Index1);
+      data.set(Index1,data.get(Index2));
+      data.set(Index2,TempValue1);
+    }
     public void sort(){
 	int i;
 	for (i=0;i < data.size()-1; i++){
-	    // find the smallet index from i to end
-	    // your code here
+    int tempSmallest = findSmallestIndex(i); //utilize previous method to find smallest index and assign it a local variable
+    swap(tempSmallest, i);
 
-	    // swap the item at that index and i
-	    // your code here
 
 
 	}
