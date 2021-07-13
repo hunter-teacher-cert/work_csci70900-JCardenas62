@@ -1,0 +1,80 @@
+## Lesson objective:
+1. SWBAT assign different types of variables and utilize them
+in multiple print statements.
+2. SWBAT do basic arithmetic with int variables.
+
+### Aim: How do we create and use variables?
+
+### Warm up
+time: 10 minutes
+During the initial class time students will be entering, turning on computers and
+ opening notebooks. Students will need time to copy the aim and complete the
+ following do-now:
+
+ Open up the text editor and create a println statement that displays "Today,
+ _________, I woke up at _______." Fill in the first blank with today's Date
+ and fill in the second blank with the time you woke up today.
+ For example: "Today, Tuesday July 13th, I woke up at 06:10AM."
+ You may refer to previous code we have done in the past.
+
+
+---
+
+### Lesson Content
+time: 15 minutes
+Begin the lesson with an refresher of information that will be needed for today's
+lesson:
+        -creating a public class filename
+        -creating a public static void main
+        -System.out.println() statements
+Expand on println on how it prints a string and starts a new line.
+Introduce the print () function. Explain the difference between println and print.
+Do a live demo where:
+        -students aid teacher setting up a program (class and main)
+        -aid the teacher in setting up a println statements
+        -teacher demonstrates how a print() statement is written
+
+Continue lesson with introduction of what a variable is.
+    Variable definition: A symbolic name that stores information.
+    Variables may come in different types dependent on the information being stored.
+    Variables that contains numeric information are called integer variables.
+    Variables that contain text are called string variables.
+    Display that different types of variables are labeled differently when
+    programming.
+
+Do a live demo where:
+        -students aid teacher setting up a program (class and main)
+        - demonstrate int variable and String variable.
+        - create two print() statements that make reference to these variables.
+        -create a println statement that make reference to the same variables.
+        -compare differences between println and print()
+
+---
+
+### Lesson Activity
+time: 22 minutes
+Activity 1: Students will create one int variable and one String variable and
+print and println them.
+Activity 2: Students will create 2 int variables. They will utilize operators
+to multiply, divide, add, and subtract these variables and print them.
+Activity 3: Students will create 2 String variables and print() them using a +
+operator.
+Activity 4: Students will create a program that will display the date in an
+American format, and a European format utilizing a combination of print and
+println statements.
+
+Examples will be given for all activities to serve as reference for what the
+finished product should look like.
+
+---
+
+### Closing
+time: 08 minutes
+
+Students will be asked to create two int Variables and one String variable.
+They will then need to println the String variable and the two int variables
+with the proper operator.
+Students will need to either add, subtract, multiple, or divide the int Variables.
+
+
+---
