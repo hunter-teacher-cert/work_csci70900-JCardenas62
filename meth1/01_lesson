@@ -48,7 +48,10 @@ Do a live demo where:
         - create two print() statements that make reference to these variables.
         -create a println statement that make reference to the same variables.
         -compare differences between println and print()
-
+**Possible misconceptions: Students confuse print and println
+                          Demo print and println again (if small number of students
+                          create mini group going over the key differences prior
+                          to releasing to do lesson activity)
 ---
 
 ### Lesson Activity
