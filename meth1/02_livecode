@@ -1,0 +1,40 @@
+This live-code demo will be in reference to 01_lesson where students will
+be shown how to set-up integer and string variables, in addition to printing them.
+
+Goals of Live-Code:
+  1. Review how to set-up a program
+  2. Demonstrate proper integer variable syntax
+  3. Demonstrate proper syntax for print and println statements with variables.
+
+live-code demo
+
+public class Variable{                     //For lines 11 and 12 I will ask students to
+                                            //guide me writing this code. I will purposefully forget
+                                            //the open curly bracket on line 11 and I will come back to it
+                                            //when we reach the end of the program and are ready to run.
+  public static void main (String[] args){
+  int FavoriteNumber = 30;                   //demonstrate how to write a int variables
+                                              //utilize student input of favorite FavoriteNumber
+
+
+  String FavoriteColor = "green";              //Demo writing a String variable with another student's
+                                              //favorite color.
+                                              //Ask "What purpose does the equal sign serve here?"
+
+System.out.println("My favorite number is " + FavoriteNumber + ".");//let students set up System.out.println()
+System.out.println("My favorite color is "+ FavoriteColor + ".");//omit semicolon unless student's bring it up
+
+//first we will run the println to demo the println function.
+//then I will comment out the println and do the print() function.
+
+System.out.print("My favorite number is ");
+System.out.print(FavoriteNumber);
+System.out.print(". ");
+System.out.print("My favorite color is ");
+System.out.print(FavoriteColor);
+System.out.print(". ");
+
+//we will go into a discussion on the differences between print and println. After a brief
+//discussion I will run both simultaneously.
+    }
+  }
