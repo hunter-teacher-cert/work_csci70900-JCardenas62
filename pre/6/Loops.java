@@ -101,3 +101,4 @@ public static void check (double x, int n, int p) {
     }
   }
 //added scanner function for more practice integrating scanners.
+//adding new comment for testing purposes.
