@@ -42,6 +42,7 @@ How do elements and values differ?
 Why is it necessary that an array have an element and a value?
 
 Is the data that we collected a value or an element? Explain why.
+
 </td>
 <td><strong>Differentiation</strong>:
 
@@ -57,10 +58,10 @@ Students will have sample code with comments that will help guide students.
    <td><strong>Possible Misconceptions:</strong> An element is the value.
 An element starts at 1.
 The organization levels between element, value and array.
-   </td>
+  </td>
   </tr>
   <tr>
-   <td colspan="2" ><strong>Connections to Previous Lesson: </strong>Students will utilize a combination of print statements and basic java structuring to fill out missing components of the sample code.
+   <td colspan="2" ><div align="left"><strong>Connections to Previous Lesson: </strong>Students will utilize a combination of print statements and basic java structuring to fill out missing components of the sample code.
    </td>
    <td colspan="2" ><strong>Real-World Connections:</strong> Arrays can be used to store various pieces of similar data/ information. Some applications are found in how contacts are stored in telephones, or how some data is displayed by monitors. They are sequential and organized.
    </td>
@@ -74,7 +75,7 @@ Students will take their notebooks out, copy the Topic, Content and Language Obj
 <p>
 <strong>I-Do</strong>: Time: 10 minutes
 <p>
-I will go through a PowerPoint Presentation in which students will learn about arrays. The lesson will focus on what an array is, why it is useful, and how it is written in Java. Throughout the lesson, the H.O.T. questions will be asked when appropriate.
+I will go through a PowerPoint Presentation in which students will learn about arrays. The lesson will focus on what an array is, why it is useful, and how it is written in Java. Throughout the lesson, the H.O.T. questions will be asked when appropriate. I will show a live demo that demonstrates the organization of arrays, elements, and values. 
 <p>
 <strong>We-Do</strong>: Time: 3 minutes
 <p>
