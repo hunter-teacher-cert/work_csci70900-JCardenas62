@@ -9,37 +9,53 @@
   <tr>
    <td><strong>Topic:</strong> How do we collect data and represent it on a bar graph using Java?
    </td>
-   <td><strong>Learning Objective:</strong> Students will be able to: \
-1. Collect and record data \
-2. Read, write and interpret code to input data \
+   <td><strong>Learning Objective:</strong> Students will be able to:
+
+1. Collect and record data
+
+2. Read, write and interpret code to input data
+
 3. Identify the elements of an array and its assigned value.
    </td>
-   <td><strong>SIOP</strong>: Content Objective: Students will explain what an array is, how to set-up an array, and how to utilize information within an array to make a bar graph.  \
- \
+   <td><strong>SIOP</strong>: Content Objective: Students will explain what an array is, how to set-up an array, and how to utilize information within an array to make a bar graph.  
+
 Language Objective: Students will define and correctly utilize the terms: element, array, value, data.
    </td>
-   <td><strong>Academic Vocabulary:</strong> Array- a group of variables identical in type (integer, string, etc) that are all referred to by a common name.  \
-Element- The number of variables inside the array. Arrays always start at element 0.  \
+   <td><strong>Academic Vocabulary:</strong> Array- a group of variables identical in type (integer, string, etc) that are all referred to by a common name.  
+Element- The number of variables inside the array. Arrays always start at element 0.  
 Value- The information found within the element, can be a integer, character, string, etc.
    </td>
   </tr>
   <tr>
-   <td><strong>H.O.T. Questions:</strong> What is an array? \
-What is an element? \
-What is a value? \
-Organize from smallest to largest, an array, element and value.  \
-How do elements and values differ? \
-Why is it necessary that an array have an element and a value? \
+   <td><strong>H.O.T. Questions:</strong>
+
+   What is an array?
+
+What is an element?
+
+What is a value?
+
+Organize from smallest to largest, an array, element and value.  
+
+How do elements and values differ?
+
+Why is it necessary that an array have an element and a value?
+
 Is the data that we collected a value or an element? Explain why.
-   </td>
-   <td><strong>Differentiation</strong>: Students will be shown images demonstrating the order of array, element, and value.  \
-Students will have a live demo with boxes that demonstrate the organization of values, elements and arrays. \
+</td>
+<td><strong>Differentiation</strong>:
+
+Students will be shown images demonstrating the order of array, element, and value.  
+
+Students will have a live demo with boxes that demonstrate the organization of values, elements
+and arrays.
+
 Students will have sample code with comments that will help guide students.
    </td>
    <td><strong>Discipline Literacy Strategies Applied: </strong>Vocabulary Bank
    </td>
-   <td><strong>Possible Misconceptions:</strong> An element is the value. \
-An element starts at 1. \
+   <td><strong>Possible Misconceptions:</strong> An element is the value.
+An element starts at 1.
 The organization levels between element, value and array.
    </td>
   </tr>
@@ -52,7 +68,8 @@ The organization levels between element, value and array.
   <tr>
    <td colspan="4" ><strong>Activities</strong>:
 <p>
-<strong>Do-now/Warm-up Activity:</strong> Time: 3 minutes \
+<strong>Do-now/Warm-up Activity:</strong> Time: 3 minutes
+
 Students will take their notebooks out, copy the Topic, Content and Language Objectives (school policy). Students will log into their computers and answer
 <p>
 <strong>I-Do</strong>: Time: 10 minutes
